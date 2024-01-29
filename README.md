@@ -1,6 +1,7 @@
 # udemy-sale-check
 program to check whether udemy is on sale
 
+***
 
 the .py program is the the python file that has been turned into an executable using pyinstaller
 executable can be found in dist/udemySaleCheck
@@ -18,9 +19,9 @@ if match found, win11toast sends a windows notification
 
 
 limitations:
-depends on website structure
-works only for windows
-needs active net connection
+- depends on website structure
+- works only for windows
+- needs active net connection
 
 
 
