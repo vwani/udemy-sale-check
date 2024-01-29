@@ -7,6 +7,9 @@ the .py program is the the python file that has been turned into an executable u
 executable can be found in dist/udemySaleCheck
 
 
+udemySaleCheck is the virtual environment folder.
+
+
 Uses requests and beautifulsoup for fetching udemy webpage and web scraping. 
 This program relies on html structure of the file and thus may not work if udemy refactors it's website.
 Only works for desktop version of the site
