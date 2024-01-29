@@ -18,7 +18,7 @@ for t in text:
 
     
 
-if (a:=re.findall(r'[\w\s\d]+₹4\d{2}[\s\.,!]|[\w\s\d]+\b(?:Sale)\b[\w\s\d]+',content, re.IGNORECASE)):
+if (a:=re.findall(r'[\w\s\d]+₹[12345]\d{2}[\s\.,!]|[\w\s\d]+\b(?:Sale)\b[\w\s\d]+',content, re.IGNORECASE)):
     toast('Udemy Sale Today!', f'{". ".join(map(lambda x: x.strip().rstrip("."), a))}. Click to open Udemy', on_click='https://www.udemy.com', button='Dismiss')
 
 else:
